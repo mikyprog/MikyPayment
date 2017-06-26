@@ -1,0 +1,32 @@
+{
+  "name": "mikycorp/payment",
+  "type": "library",
+  "description": "Payment",
+  "keywords": [],
+  "homepage": "http://electron-agency.fr",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mathias Joseph",
+      "homepage": "http://electron-agency.fr"
+    }
+  ],
+  "require": {
+    "mikycorp/core": "~1.0"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Miky\\Component\\Payment" : ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "target-dir" : "Miky/Component/Payment",
+  "repositories" : [{
+  }],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
