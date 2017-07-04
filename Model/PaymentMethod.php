@@ -9,7 +9,6 @@
 namespace Miky\Component\Payment\Model;
 
 
-use Miky\Component\Core\Model\CommonModelInterface;
 use Miky\Component\Core\Model\CommonModelTrait;
 
 class PaymentMethod implements PaymentMethodInterface
